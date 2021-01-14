@@ -62,7 +62,7 @@ have a repo name of `coseismic_enumerator`.
 
 **Ensure Issue Templates are Activated**
 
-Follow the directions from GitHub to activate your repository's issue templates. Namely, Bug Reports and Feature Requests should have templates
+Follow the [directions from GitHub](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/configuring-issue-templates-for-your-repository) to activate your repository's issue templates. Namely, Bug Reports and Feature Requests should have templates
 available for developers to utilize. The standard GitHub templates for Bug Reports and Feature Requests are acceptable to use.
 
 In addition to Bug Reports and Feature Requests, we'd like to also create a template for Task Issue. This type of ticket represents general tasks
