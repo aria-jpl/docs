@@ -9,7 +9,7 @@
 - _A collaboration between JPL and Caltech_
 
 [GitHub](https://github.com/aria-jpl/)
-[Get Started](#aria)
+[Get Started](#overview)
 
 <!-- background color -->
 ![color](#f0f0f0)
