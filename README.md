@@ -62,10 +62,10 @@ have a repo name of `coseismic_enumerator`.
 
 **Ensure Issue Templates are Activated**
 
-Follow the [directions from GitHub](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/configuring-issue-templates-for-your-repository) to activate your repository's issue templates. Namely, Bug Reports and Feature Requests should have templates
+Issue templates help ensure consistent and readable tickets for all team members. Follow the [directions from GitHub](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/configuring-issue-templates-for-your-repository) to activate your repository's issue templates. Namely, Bug Reports and Feature Requests should have templates
 available for developers to utilize. The standard GitHub templates for Bug Reports and Feature Requests are acceptable to use.
 
-In addition to Bug Reports and Feature Requests, we'd like to also create a template for Task Issue. This type of ticket represents general tasks
+In addition to Bug Reports and Feature Requests, optionally create a template for Task Issues. This type of ticket represents general tasks
 that are requested to be performed, separate from new features or bugs. Please use the below template text for this type of ticket:
 
 ```
@@ -73,7 +73,6 @@ that are requested to be performed, separate from new features or bugs. Please u
 <!--- NOTE: in the right hand bar, please also specify: -->
 <!---       * assignee: the person tasked with resolving the issue -->
 <!---       * labels: the type of issue
-<!---       * milestone: the milestone number this issue should be resolved by -->
 
 **Brief Description**
 <!--- Provide a brief description, in plain english, of the task you are proposing -->
@@ -126,8 +125,6 @@ TBD
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
 ## Development setup
 
 Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
@@ -171,10 +168,15 @@ Any specific contact information regarding leadership / maintenance of this repo
 
 ### Branches
 
-TBD
+Ensure that your repository has branches with the following names:
+- `master` - branch that contains the repo public and latest stable release code
+- `develop` - branch that contains the repo's latest development code
+- `issue-XYZ` - branches that relate to specific GitHub ticket issues
 
 ### Pull Requests
 
-TBD
+For all pull requests:
+- An associated GitHub ticket should be available to reference
+- A default reviewer(s) should be assigned for newly created tickets, please see [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-required-reviews-for-pull-requests) for enabling this feature automatically. 
 
 # Support
