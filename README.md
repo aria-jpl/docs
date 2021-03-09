@@ -92,9 +92,9 @@ An example for the type of capability that should be present after completing th
 available here: https://github.com/aria-jpl/coseismic_product/issues/new/choose
 
 
-### Documentation
+### README
 
-**Create a Useful README**
+**Create Useful README Documentation**
 
 A good `README.md` is an essential for others to utilize and contribute towards a repository. For the purposes of ARIA, please use
 the following `README.md` template for your repository and fill out all relevant fields:
@@ -113,9 +113,9 @@ More detailed description of your repository
 
 e.g.
 
-_Built using the ARIA HySDS Jenkins Continuous Integration (CI) pipeline. 
+Built using the ARIA HySDS Jenkins Continuous Integration (CI) pipeline.
 
-More information about this process can be found [here](https://hysds-core.atlassian.net/wiki/spaces/HYS/pages/455114757/Deploy+PGE+s+onto+Cluster) _
+More information about this process can be found [here](https://hysds-core.atlassian.net/wiki/spaces/HYS/pages/455114757/Deploy+PGE+s+onto+Cluster)
 
 ## Run Instructions
 
@@ -167,6 +167,6 @@ Ensure that your repository has branches with the following names:
 
 For all pull requests:
 - An associated GitHub ticket should be available to reference
-- A default reviewer(s) should be assigned for newly created tickets, please see [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-required-reviews-for-pull-requests) for enabling this feature automatically. 
+- A default reviewer(s) should be assigned for newly created tickets, please see [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-required-reviews-for-pull-requests) for enabling this feature automatically.
 
 # Support
