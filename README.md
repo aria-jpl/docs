@@ -145,7 +145,7 @@ You may run your customized PGE via two methods that are documented below:
 
 ## Contributing
 
-1. Create an GitHub issue ticket desrcribing what changes you need (e.g. issue-1)
+1. Create an GitHub issue ticket describing what changes you need (e.g. issue-1)
 2. Fork this repo (<https://github.com/aria-jpl/repo/fork>)
 3. Make your modifications in your own fork
 4. Make a pull-request in this repo with the code in your fork and tag the repo owner / largest contributor as a reviewer
