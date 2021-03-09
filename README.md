@@ -92,9 +92,9 @@ An example for the type of capability that should be present after completing th
 available here: https://github.com/aria-jpl/coseismic_product/issues/new/choose
 
 
-### Documentation
+### README
 
-**Create a Useful README**
+**Create Useful README Documentation**
 
 A good `README.md` is an essential for others to utilize and contribute towards a repository. For the purposes of ARIA, please use
 the following `README.md` template for your repository and fill out all relevant fields:
@@ -107,32 +107,25 @@ More detailed description of your repository
 
 ![](header.png) [Screenshot of your software, if applicable]
 
-## Installation
+## Build Instructions
 
-OS X & Linux:
+[Modify as/if needed]
 
-```sh
-TBD
-```
+e.g.
 
-Other deployment environment(s):
+Built using the ARIA HySDS Jenkins Continuous Integration (CI) pipeline.
 
-```sh
-TBD
-```
+More information about this process can be found [here](https://hysds-core.atlassian.net/wiki/spaces/HYS/pages/455114757/Deploy+PGE+s+onto+Cluster)
 
-## Usage example
+## Run Instructions
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+[Modify as/if needed and add any customizations for your code]
 
-## Development setup
+e.g.
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
+You may run your customized PGE via two methods that are documented below:
+- An [on-demand (one-time) job](https://hysds-core.atlassian.net/wiki/spaces/HYS/pages/378601499/Submit+an+On-Demand+Job+in+Facet+Search)
+- [Create a trigger rule](https://hysds-core.atlassian.net/wiki/spaces/HYS/pages/442728660/Create+Edit+Delete+Trigger+Rules) to invoke your PGE based on conditions
 
 ## Release History
 
@@ -152,13 +145,10 @@ npm test
 
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
+1. Create an GitHub issue ticket desrcribing what changes you need (e.g. issue-1)
+2. Fork this repo (<https://github.com/aria-jpl/repo/fork>)
+3. Make your modifications in your own fork
+4. Make a pull-request in this repo with the code in your fork and tag the repo owner / largest contributor as a reviewer
 
 ## Support
 
@@ -177,6 +167,6 @@ Ensure that your repository has branches with the following names:
 
 For all pull requests:
 - An associated GitHub ticket should be available to reference
-- A default reviewer(s) should be assigned for newly created tickets, please see [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-required-reviews-for-pull-requests) for enabling this feature automatically. 
+- A default reviewer(s) should be assigned for newly created tickets, please see [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-required-reviews-for-pull-requests) for enabling this feature automatically.
 
 # Support
