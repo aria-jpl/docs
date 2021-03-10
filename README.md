@@ -23,14 +23,18 @@ of this document organizes software information based on pipelines.
 
 _The Coseismic pipeline automatically identifies earthquake events globally, and generates interferograms for before and after the earthqake event_
 
-[DATA FLOW DIAGRAM HERE]
+[![coseismic-diagram](_media/pipelines/coseismic-diagram.png)](_media/pipelines/coseismic-diagram.png)
 
 The following GitHub repositories together represent the coseismic pipeline:
-- https://github.com/aria-jpl/coseismic_product
-- https://github.com/aria-jpl/ariamh
-- https://github.com/al-niessner/coseismic_enumerator
+- USGS Earthquake Scraper: https://github.com/aria-jpl/coseismic_usgs_neic
+- Earthquake Displacement Evaluator: https://github.com/aria-jpl/coseismic_usgs_neic_evaluator
+- AOI Enumerator: https://github.com/aria-jpl/coseismic_enumerator
+- SLC Downloader / Evaluator: https://github.com/aria-jpl/coseismic_product
+- Interferogram Generator: https://github.com/aria-jpl/topsApp_pge
 
 Please consult the respective `README.md` files for each of the above repositories for installation directions per component.
+
+Please consult the [wiki](https://aria.atlassian.net/wiki/spaces/ARIA/pages/18448385/S1-GUNW-COSEISMIC) for details about the design of the pipeline.
 
 # Developer Guides
 
@@ -145,7 +149,7 @@ You may run your customized PGE via two methods that are documented below:
 
 ## Contributing
 
-1. Create an GitHub issue ticket describing what changes you need (e.g. issue-1)
+1. Create an GitHub issue ticket desrcribing what changes you need (e.g. issue-1)
 2. Fork this repo (<https://github.com/aria-jpl/repo/fork>)
 3. Make your modifications in your own fork
 4. Make a pull-request in this repo with the code in your fork and tag the repo owner / largest contributor as a reviewer
